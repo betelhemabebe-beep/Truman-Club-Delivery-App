@@ -69,7 +69,7 @@ USE truman_clubs_delivery;
  Run each .sql file in MySQL Workbench 
 
  ## Demo
- (videos/student.mp4)
+ (./Videos/student.mp4)
 
 
 
