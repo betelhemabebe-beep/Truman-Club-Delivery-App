@@ -20,13 +20,15 @@ The Truman Club Delivery platform is a web-based application designed to connect
 2. Install MySQL (Workbench preferred for database setup).
 
 # Step 1: Clone the Repository
+```bash
 git clone https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App.git
 cd Truman-Club-Delivery-App
 
 # Step 2: Set Up the Backend
+```bash
 cd back
 
-# Create and configure the .env file for database credentials
+# Step 3: Navigate to the .env file in the back folder
 # Replace "your_mysql_password" with your actual MySQL Workbench password
 echo "DB_PASSWORD=your_mysql_password" > .env
 
