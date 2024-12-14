@@ -19,53 +19,53 @@ The Truman Club Delivery platform is a web-based application designed to connect
 1. Install Node.js (LTS version recommended).
 2. Install MySQL (Workbench preferred for database setup).
 
-#### Step 1: Clone the Repository
+### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App.git
 cd Truman-Club-Delivery-App
 ```
 
-# Step 2: Set Up the Backend
+### Step 2: Set Up the Backend
 ```bash
 cd back
 ```
 
-# Step 3: Navigate to the .env file in the back folder
+### Step 3: Navigate to the .env file in the back folder
 Replace "ethbettyabebe" with your actual MySQL Workbench password
 
-# Install backend dependencies
+#### Install backend dependencies
 ```bash
 npm install
 ```
 
-# Start the backend server
+#### Start the backend server
 ```bash
 npm start
 ```
 
-# Step 3: Set Up the Frontend
+### Step 3: Set Up the Frontend
 ```bash
 cd ../frontend
 ```
 
-# Install frontend dependencies
+#### Install frontend dependencies
 ```bash
 npm install
 ```
 
-# Start the frontend server
+#### Start the frontend server
 ```bash
 npm start
 ```
 
-# Step 4: Set Up the Database
+### Step 4: Set Up the Database
  Open MySQL Workbench and New Query Tab
 ```bash
 CREATE DATABASE truman_clubs_delivery;
 USE truman_clubs_delivery;
 ```
 
-# Navigate to the 'database' folder
+#### Navigate to the 'database' folder
  Run each .sql file in MySQL Workbench 
 
 
