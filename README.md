@@ -23,6 +23,7 @@ The Truman Club Delivery platform is a web-based application designed to connect
 ```bash
 git clone https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App.git
 cd Truman-Club-Delivery-App
+```
 
 # Step 2: Set Up the Backend
 ```bash
