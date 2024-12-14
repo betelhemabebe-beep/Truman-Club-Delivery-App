@@ -30,7 +30,7 @@ cd Truman-Club-Delivery-App
 cd back
 ```
 
-### Step 3: Navigate to the .env file in the back folder
+#### Navigate to the .env file in the back folder
 Replace "ethbettyabebe" with your actual MySQL Workbench password
 
 #### Install backend dependencies
