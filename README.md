@@ -68,6 +68,9 @@ USE truman_clubs_delivery;
 #### Navigate to the 'database' folder
  Run each .sql file in MySQL Workbench 
 
+ ## Demo
+ (videos/student.mp4)
+
 
 
 
