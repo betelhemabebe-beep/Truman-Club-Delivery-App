@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# User Manual for Truman Club Delivery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+The **Truman Club Delivery** platform connects students and clubs, enabling service ordering and management with administrative oversight. This guide provides instructions for students, clubs, and admins to effectively use the platform.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Students
+Students can register, log in, browse club services, place orders, and track their order status.
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### 1. Registration
+- Navigate to the **Student Registration** page.
+- Fill in the following details:
+  - Username.
+  - Email (must end with `@truman.edu`).
+  - Password.
+- Click **Sign Up** to create an account.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 2. Login
+- Go to the **Student Login** page.
+- Enter your username and password.
+- Click **Login** to access your dashboard.
 
-### `npm test`
+#### 3. Dashboard
+- View all verified clubs.
+- Click on a club to see its services. This takes you to the **Service List** of the selected club.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 4. Service List
+- Browse services offered by a selected club.
+- Click on a service for more details.
 
-### `npm run build`
+#### 5. Order Service
+- On the **Service Page**, specify:
+  - Quantity.
+  - Delivery location.
+  - Additional instructions (optional).
+- Click **Place Order** to confirm. You will be redirected to the **Order History** page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 6. Order History
+- View all past orders.
+- Track order status:
+  - **Requested**: Order placed.
+  - **Confirmed**: Order accepted by the club.
+  - **Completed**: Order fulfilled.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Clubs
+Clubs can register, manage services, handle orders, and update their profile after admin approval.
 
-### `npm run eject`
+### Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### 1. Registration
+- Navigate to the **Club Registration** page.
+- Fill in the following details:
+  - Club name.
+  - Representative name.
+  - Email (must end with `@truman.edu`).
+  - Password.
+  - Club description.
+- Upload a profile picture (optional).
+- Click **Sign Up** to register.
+- **Note:** Clubs cannot log in until approved by the admin.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 2. Login
+- Once approved, go to the **Club Login** page.
+- Enter your club credentials to log in.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 3. Dashboard
+- View the services your club offers.
+- Navigate to add new services or manage existing ones.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### 4. Add Service
+- Click **Add Service** from the dashboard.
+- Fill in the following details:
+  - Service name.
+  - Description.
+  - Price.
+  - Optional image.
+- Click **Submit** to add the service.
 
-## Learn More
+#### 5. Orders
+- View all orders placed by students.
+- Update order status:
+  - **Requested**: New order.
+  - **Confirmed**: Order is accepted.
+  - **Completed**: Order is fulfilled.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### 6. Edit Profile
+- Update club name, email, description, or profile picture.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Admins
+Admins manage club registrations, monitor activities, and control user accounts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Features
 
-### Analyzing the Bundle Size
+#### 1. Login
+- Use the hardcoded credentials:
+  - **Username**: `admin`
+  - **Password**: `adminpassword`
+- Access the **Admin Dashboard**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 2. Dashboard
+- Approve or reject pending club registrations.
+- View all registered clubs and students.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
