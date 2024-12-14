@@ -70,8 +70,9 @@ USE truman_clubs_delivery;
 
  ## Demo
 
-[Watch the video](https://raw.githubusercontent.com/betelhemabebe-beep/Truman-Club-Delivery-App/master/Videos/student.mp4)
-
+[Student's View](https://raw.githubusercontent.com/betelhemabebe-beep/Truman-Club-Delivery-App/master/Videos/student.mp4)
+[Club's View](https://raw.githubusercontent.com/betelhemabebe-beep/Truman-Club-Delivery-App/master/Videos/club.mp4)
+[Admin's View](https://raw.githubusercontent.com/betelhemabebe-beep/Truman-Club-Delivery-App/master/Videos/admin.mp4)
 
 
 
