@@ -19,7 +19,7 @@ The Truman Club Delivery platform is a web-based application designed to connect
 1. Install Node.js (LTS version recommended).
 2. Install MySQL (Workbench preferred for database setup).
 
-# Step 1: Clone the Repository
+#### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App.git
 cd Truman-Club-Delivery-App
