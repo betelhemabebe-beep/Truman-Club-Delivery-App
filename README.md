@@ -28,37 +28,46 @@ cd Truman-Club-Delivery-App
 # Step 2: Set Up the Backend
 ```bash
 cd back
+```
 
 # Step 3: Navigate to the .env file in the back folder
-# Replace "your_mysql_password" with your actual MySQL Workbench password
-echo "DB_PASSWORD=your_mysql_password" > .env
+Replace "ethbettyabebe" with your actual MySQL Workbench password
 
 # Install backend dependencies
+```bash
 npm install
+```
 
 # Start the backend server
+```bash
 npm start
+```
 
 # Step 3: Set Up the Frontend
+```bash
 cd ../frontend
+```
 
 # Install frontend dependencies
+```bash
 npm install
+```
 
 # Start the frontend server
+```bash
 npm start
+```
 
 # Step 4: Set Up the Database
-# Open MySQL Workbench or use the MySQL CLI to create the database:
-mysql -u root -p -e "
+ Open MySQL Workbench and New Query Tab
+```bash
 CREATE DATABASE truman_clubs_delivery;
 USE truman_clubs_delivery;
-"
+```
 
-# Navigate to the 'db' folder in the project directory
-# Run each .sql file in MySQL Workbench or use the MySQL CLI to execute:
-# Example:
-# mysql -u root -p truman_clubs_delivery < path_to_file.sql
+# Navigate to the 'database' folder
+ Run each .sql file in MySQL Workbench 
+
 
 
 
