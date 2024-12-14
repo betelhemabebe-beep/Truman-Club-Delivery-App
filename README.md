@@ -71,7 +71,7 @@ USE truman_clubs_delivery;
  ## Demo
 
 https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App/tree/master/Videos/student.mp4
-
+<video src="https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App/tree/master/Videos/student.mp4" width="320" height="240" controls></video>
 
 
 
