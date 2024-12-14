@@ -69,7 +69,7 @@ USE truman_clubs_delivery;
  Run each .sql file in MySQL Workbench 
 
  ## Demo
- ((https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App/tree/master/Videos/student.mp4))
+ (([https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App/tree/master/Videos/student.mp4](https://github.com/betelhemabebe-beep/Truman-Club-Delivery-App/blob/master/Videos/student.mp4)))
 
 
 
